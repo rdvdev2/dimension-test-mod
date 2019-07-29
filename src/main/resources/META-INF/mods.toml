@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId="dimensiontest"
+version="NONE"
+displayName="Dimension Test"
+description='''
+Just an example of RegisterDimensionsEvent not firing on first server start
+'''
+[[dependencies.dimensiontest]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dimensiontest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
